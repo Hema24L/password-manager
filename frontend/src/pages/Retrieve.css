@@ -1,0 +1,89 @@
+/* ===== Container ===== */
+.retrieve {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.retrieve h2 {
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* ===== Input Field ===== */
+.retrieve input[type="text"] {
+  width: 90%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.retrieve input[type="text"]:focus {
+  border-color: #3498db;
+}
+
+/* ===== Button ===== */
+.retrieve button {
+  width: 95%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #3498db;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.retrieve button:hover {
+  background: #2980b9;
+}
+
+/* ===== Error Message ===== */
+.retrieve .error {
+  color: #e74c3c;
+  margin-top: 1rem;
+  font-weight: 500;
+  min-height: 1.2em;
+}
+
+/* ===== Password Output ===== */
+.retrieve .password-output {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #ecf9f1;
+  border: 1px solid #2ecc71;
+  border-radius: 8px;
+  word-break: break-all;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  .retrieve {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .retrieve h2 {
+    font-size: 1.4rem;
+  }
+
+  .retrieve input[type="text"],
+  .retrieve button {
+    width: 100%;
+  }
+}
