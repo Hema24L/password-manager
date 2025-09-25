@@ -1,0 +1,81 @@
+/* ===== Container ===== */
+.signup {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.signup-heading {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* ===== Input Fields ===== */
+.signup-username,
+.signup-password {
+  width: 90%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.signup-username:focus,
+.signup-password:focus {
+  border-color: #3498db;
+}
+
+/* ===== Signup Button ===== */
+.signup-bt {
+  width: 95%;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #2ecc71;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-bt:hover {
+  background: #27ae60;
+}
+
+/* ===== Message ===== */
+.signup p {
+  margin-top: 1rem;
+  color: #e74c3c;
+  font-weight: 500;
+  min-height: 1.2em;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  .signup {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .signup-heading {
+    font-size: 1.5rem;
+  }
+
+  .signup-username,
+  .signup-password,
+  .signup-bt {
+    width: 100%;
+  }
+}
