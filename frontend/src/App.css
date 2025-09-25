@@ -1,0 +1,92 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* ===== App Container ===== */
+.Nav-bar-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* ===== App Heading ===== */
+.Nav-bar-app-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+/* ===== Navigation Bar ===== */
+.Nav-bar-app-elem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: #2c3e50;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+}
+
+.Nav-bar-app-elem a,
+.logout-bt {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.Nav-bar-app-elem a:hover,
+.logout-bt:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+/* Logout Button */
+.logout-bt {
+  border: none;
+  cursor: pointer;
+  background: #e74c3c;
+  font-weight: 500;
+}
+
+.logout-bt:hover {
+  background: #c0392b;
+}
+
+/* ===== Horizontal Divider ===== */
+hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .Nav-bar-app-heading {
+    font-size: 1.5rem;
+  }
+
+  .Nav-bar-app-elem {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .Nav-bar-app-elem a,
+  .logout-bt {
+    width: 100%;
+    text-align: center;
+  }
+}
