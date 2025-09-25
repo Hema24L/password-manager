@@ -1,5 +1,4 @@
-# password-manager
-# Password Manager with Leak Checker
+# Password Manager
 
 A full-stack **Password Manager** built with **React (frontend)** and **Flask + MongoDB (backend)**. Integrated with a **password leak checker** using the [Have I Been Pwned API](https://haveibeenpwned.com/API/v3).
 
