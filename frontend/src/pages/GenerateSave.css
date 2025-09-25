@@ -1,0 +1,121 @@
+/* ===== Container ===== */
+.gen-save {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* ===== Heading ===== */
+.gen-save-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+/* ===== Input fields ===== */
+.gen-save-site,
+.gen-save-username,
+.gen-save-length {
+  margin-bottom: 1rem;
+}
+
+.gen-save-site-txt,
+.gen-save-username-txt,
+.gen-save-length-txt {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+
+.gen-save-site-txt:focus,
+.gen-save-username-txt:focus,
+.gen-save-length-txt:focus {
+  border-color: #3498db;
+}
+
+/* ===== Checkboxes ===== */
+.gen-save-checkbox {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+
+.gen-save-checkbox-txt {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.95rem;
+}
+
+.gen-save-checkbox-txt input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* ===== Buttons ===== */
+.gen-save-bt1,
+.gen-save-bt2 {
+  width: 48%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-right: 2%;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.gen-save-bt1 {
+  background-color: #3498db;
+}
+
+.gen-save-bt1:hover {
+  background-color: #2980b9;
+}
+
+.gen-save-bt2 {
+  background-color: #2ecc71;
+}
+
+.gen-save-bt2:hover {
+  background-color: #27ae60;
+}
+
+/* Fix spacing if only two buttons */
+.gen-save-bt2:last-child {
+  margin-right: 0;
+}
+
+/* ===== Generated Password Output ===== */
+.gen-save-output {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  word-break: break-all;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.leak-status {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.leak-status.safe {
+  color: #2ecc71; /* green */
+}
+
+.leak-status.leaked {
+  color: #e74c3c; /* red */
+}
+
