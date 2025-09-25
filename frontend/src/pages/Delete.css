@@ -1,0 +1,69 @@
+/* ===== Container ===== */
+.delete {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.delete h2 {
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* ===== Input Field ===== */
+.delete input[type="text"] {
+  width: 90%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.delete input[type="text"]:focus {
+  border-color: #e74c3c;
+}
+
+/* ===== Button ===== */
+.delete button {
+  width: 95%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #e74c3c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete button:hover {
+  background: #c0392b;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  .delete {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .delete h2 {
+    font-size: 1.4rem;
+  }
+
+  .delete input[type="text"],
+  .delete button {
+    width: 100%;
+  }
+}
