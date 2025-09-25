@@ -1,0 +1,69 @@
+/* ===== Container ===== */
+.update {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.update h2 {
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* ===== Input Fields ===== */
+.update input[type="text"] {
+  width: 90%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.update input[type="text"]:focus {
+  border-color: #3498db;
+}
+
+/* ===== Button ===== */
+.update button {
+  width: 95%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background: #f39c12;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.update button:hover {
+  background: #d35400;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  .update {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .update h2 {
+    font-size: 1.4rem;
+  }
+
+  .update input[type="text"],
+  .update button {
+    width: 100%;
+  }
+}
